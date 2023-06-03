@@ -1,0 +1,22 @@
+/* .container {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(6, 100px);
+} */
+
+/* colors: */
+/* background-color: #84cc16;
+
+background-color: #eab308;
+background-color: #dc2626; */
+.icon {
+  width: 35px;
+}
+
+.profile {
+  width: 70px;
+  height: 80px;
+  border-radius: 50%;
+}
+.header {
+}
