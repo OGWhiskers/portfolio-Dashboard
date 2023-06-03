@@ -10,7 +10,11 @@
 background-color: #eab308;
 background-color: #dc2626; */
 /* containers: */
-
+.header {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  gap: 30px;
+}
 .top-head {
   display: grid;
   grid-template-columns: 3fr 1fr;
