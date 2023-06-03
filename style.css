@@ -14,7 +14,6 @@ background-color: #dc2626; */
 .top-head {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr 2fr;
   gap: 40px;
 }
 
@@ -56,4 +55,49 @@ background-color: #dc2626; */
 
 .user-name {
   align-self: flex-end;
+}
+
+/* Bottom of header */
+
+.bottom-head {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#big-pro {
+  width: 80px;
+  height: 85px;
+}
+
+.left-bottom {
+  display: flex;
+  gap: 15px;
+}
+
+.user-name-bold {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.btn-container {
+  display: flex;
+  align-self: center;
+  gap: 15px;
+}
+.btn {
+  color: #fff;
+  background-color: #facc15;
+  font-size: 0.8rem;
+
+  border: 1px solid;
+  border-radius: 15px;
+
+  padding: 10px;
+  width: 100px;
+  height: 35px;
+}
+.btn:hover {
+  color: #facc15;
+  background-color: #fff;
+  transition: 0.3s ease-in-out;
 }
