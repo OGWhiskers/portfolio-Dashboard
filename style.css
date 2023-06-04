@@ -197,7 +197,7 @@ background-color: #dc2626; */
 
   border-radius: 8px;
   border: 1px solid gray;
-  width: 300px;
+  width: 220px;
 
   padding-top: 30px;
   padding-bottom: 20px;
@@ -223,4 +223,42 @@ hr {
   margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+/* TRENDING SECTION: */
+
+.trending-content {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 35px;
+
+  border-radius: 8px;
+  border: 1px solid gray;
+  width: 220px;
+  justify-content: center;
+
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+/* Handles */
+
+.handle {
+  display: flex;
+  gap: 20px;
+}
+
+.handleAT {
+  font-weight: 900;
+  font-size: 0.8rem;
+  align-self: center;
+}
+
+.handle-child {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.main-heading {
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 20px;
 }
