@@ -182,7 +182,7 @@ background-color: #dc2626; */
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 40px repeat(3, 1fr);
   gap: 35px;
 
   grid-row: 1 / 3;
@@ -314,4 +314,6 @@ hr {
   font-size: 1.7rem;
   font-weight: 900;
   margin-bottom: 20px;
+
+  grid-column: 1/3;
 }
