@@ -168,6 +168,10 @@ background-color: #dc2626; */
 
 /* MAIN SECTION: */
 
+/* MAIN CONTAINER: */
+
+/* OTHERS */
+
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -181,11 +185,50 @@ background-color: #dc2626; */
 .project-6,
 .project-5,
 .project-4 {
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 20px;
+
   width: 300px;
-  height: 200px;
-  background-color: #facc15;
+  height: 250px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 25px;
 }
 
+.pro-descrip {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+.pro-descrip-2 {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.pro-descrip-container {
+  grid-column: 1/5;
+  grid-row: 1;
+}
+
+.project-btn {
+  display: flex;
+  grid-column: 3/5;
+  grid-row: 2/3;
+  gap: 10px;
+}
+.pro-links {
+  width: 29px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.project-1 {
+}
 /* announcements subsection */
 
 .announcements {
